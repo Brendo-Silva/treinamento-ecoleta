@@ -1,0 +1,23 @@
+{
+  "name": "ecoleta",
+  "version": "1.0.0",
+  "description": "Projeto treinamento Next Level Week da Rocketseat",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brendo-Silva/treinamento-ecoleta.git"
+  },
+  "keywords": [],
+  "author": "Brendo Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brendo-Silva/treinamento-ecoleta/issues"
+  },
+  "homepage": "https://github.com/Brendo-Silva/treinamento-ecoleta#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
