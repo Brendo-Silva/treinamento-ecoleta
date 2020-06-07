@@ -14,7 +14,9 @@
 
     <main>
 
-        <h4>
+       {% if total > 0 %}
+
+             <h4>
             <strong>{{total}} pontos</strong>
             Encontrados
         </h4>
@@ -40,6 +42,13 @@
             
             
         </div>
+
+        {% else %}
+            <h4>
+                <strong>Nenhum</strong> local encontrado
+            </h4>
+
+       {% endif %}
 
     </main>
 

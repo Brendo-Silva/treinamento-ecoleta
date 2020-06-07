@@ -15,8 +15,17 @@ server.get ("/", (req, res) => {
 })
 
 server.get("/create-point", (req, res) => {
+
+    console.log(req.query)
+
     return res.render("create-point.html")
 })
+
+server.post("/savepoint", (req, res) => {
+    res.send("ok")
+})
+
+
 
 server.get("/search", (req, res) => {
 
